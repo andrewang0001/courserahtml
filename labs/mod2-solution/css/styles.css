@@ -1,18 +1,31 @@
-/** Base styles **/
-h1 {
-    text-align: center;
-    color: #FFFFFF;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
+
+/* Base styles */
+
+body {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+}
 .titlebox {
     background-color: #000000;
-    margin: 5px
+    margin: 5px;
+    height: 75px;
+    line-height: 75px;
+    vertical-align: middle;
+    font-size: 200%;
+    text-align: center;
+    font-weight: bold;
 }
 
 .mainbox {
     border: 1px solid black;
+    position: relative;
     margin: 5px;
     padding: 10px;
+    padding-top: 25px; /* to accomodate title text */
+    box-sizing: border-box;
 }
 
 .b1 {
@@ -27,16 +40,20 @@ h1 {
     background-color: #F44336;
 }
 
-div > h2 {
-    color: white;
+.sectiontitle {
+    font-size: 150%;
+    border: 1px solid black;
+    font-weight: bold;
+    position: absolute;
+    text-align: right;
+    width: 25%;
+    right: 0px;
+    top: 0px;
 }
 
-div > p {
-    color: white;
-}
 
-/** 992px and above **/
-@media (min-width: 992) {
+/* 992px and above */
+@media (min-width: 992px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
     .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
         float: left;
@@ -85,8 +102,8 @@ div > p {
     }
 
 }
-/** between 768 and 991 **/
-@media (min-width: 768) and (max-width:991) {
+/* between 768 and 991 */
+@media (min-width: 768px) and (max-width:991px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
     .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
         float: left;
@@ -134,7 +151,7 @@ div > p {
         width: 100%
     }
 }
-/** less than 767 **/
+/* less than 767 */
 @media (max-width:767) {
 
 }
