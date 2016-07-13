@@ -2,11 +2,12 @@
 
 
 /* Base styles */
-
+* {
+    box-sizing: border-box;
+}
 body {
     color: white;
     font-family: "Roboto", sans-serif;
-    margin: 0px;
 }
 .titlebox {
     background-color: #000000;
@@ -25,7 +26,6 @@ body {
     margin: 5px;
     padding: 10px;
     padding-top: 25px; /* to accomodate title text */
-    box-sizing: border-box;
 }
 
 .b1 {
@@ -42,6 +42,7 @@ body {
 
 .sectiontitle {
     font-size: 150%;
+    background-color: black;
     border: 1px solid black;
     font-weight: bold;
     position: absolute;
@@ -70,7 +71,7 @@ body {
     }
 
     .col-lg-4 {
-        width: 33%
+        width: 33.33%
     }
     .col-lg-5 {
         width: 41.66%
@@ -150,8 +151,4 @@ body {
     .col-md-12 {
         width: 100%
     }
-}
-/* less than 767 */
-@media (max-width:767) {
-
 }
