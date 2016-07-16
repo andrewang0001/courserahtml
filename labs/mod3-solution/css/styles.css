@@ -1,0 +1,36 @@
+body {
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+/* header */
+
+#header-nav {
+    background-color:#000000;
+    border-radius:0;
+    border:0;
+}
+
+#brand-title {
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+}
+
+/* end of header */
+
+h3 {
+    font-weight:bold;
+    font-size:1.5em;
+}
+
+h2 {
+    font-weight:bold;
+    font-size:2em;
+    color:black;
+}
+
+.box1 {
+    background-color: black;
+}
+
