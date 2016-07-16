@@ -63,7 +63,7 @@ h2 {
     background-color: #673AB7;
 }
 
-a {
+a, a:hover {
     color: white
 }
 
