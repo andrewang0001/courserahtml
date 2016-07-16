@@ -34,3 +34,6 @@ h2 {
     background-color: black;
 }
 
+.dropdown-backdrop {
+    position: static;
+}
