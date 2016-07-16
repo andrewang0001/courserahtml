@@ -9,12 +9,31 @@ body {
     background-color:#000000;
     border-radius:0;
     border:0;
+    width:100%;
 }
 
 #brand-title {
     color: white;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 24px;
+}
+
+#navlist {
+    margin: 0 0 0 0;
+    background-color:#607D8B;
+}
+
+#navlist a {
+    color:white;
+}
+
+#navlist a:hover {
+    background-color:#263238;
+}
+
+.navbar-collapse {
+    padding: 0;
+    border-top:0;
 }
 
 /* end of header */
@@ -30,10 +49,22 @@ h2 {
     color:black;
 }
 
+.mainbox {
+    margin-bottom:30px;
+    padding: 10px;
+}
 .box1 {
-    background-color: black;
+    background-color: #009688;
+}
+.box2 {
+    background-color: #3F51B5;
+}
+.box3 {
+    background-color: #673AB7;
 }
 
-.dropdown-backdrop {
-    position: static;
+a {
+    color: white
 }
+
+@media (max-width: 768)
